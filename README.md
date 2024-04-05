@@ -24,7 +24,7 @@ M5Stackのサンプルであるfloppybirdをコンパイルした結果
 $ arduino-cli compile --fqbn m5stack:esp32:m5stack_core2 --build-path build
 ```
 
-| arduino-cli | library | build | 1回目 | touch後2回目 |
+| arduino-cliの所在 | libraryの所在 | buildの所在 | 1回目の所要時間 | touch後2回目の所要時間 |
 | --- | --- | --- | --- | --- |
 | windows | windows | windows | 140秒 | 95秒 |
 | wsl | windows | windows | 147秒 | 60秒 |
