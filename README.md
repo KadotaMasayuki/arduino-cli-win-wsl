@@ -25,6 +25,7 @@ $ arduino-cli compile --fqbn m5stack:esp32:m5stack_core2 --build-path build
 ```
 
 | arduino-cli | library | build | 1回目 | touch後2回目 |
+| --- | --- | --- | --- | --- |
 | windows | windows | windows | 140秒 | 95秒 |
 | wsl | windows | windows | 147秒 | 60秒 |
 | wsl  | wsl | windows | 40.0秒 | 16.9秒 |
